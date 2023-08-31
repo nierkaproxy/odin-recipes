@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;1,6..96,400;1,6..96,500&family=Oswald:wght@200;300;400;500&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-color: beige;
+}
+
+.main-div{
+    padding: 3em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h1, h3, h5{
+    padding-bottom: 1em;
+    font-family: 'Bodoni Moda', serif;
+    font-family: 'Oswald', sans-serif;
+}
+
+h5{
+    width: 100%;
+    font-size: large;
+    font-weight: 200;
+}
+
+img{
+    height: 40em;
+    border-radius: 1em;
+}
+
+.border{
+    border: 1.5px solid black;
+    padding: 1em;
+    margin-bottom: 1em;
+    border-radius: 1em;
+}
+
+.main-div > div{
+    width: 35em;
+}
+li{
+    font-family: 'Bodoni Moda', serif;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+}
+h4, a{
+    font-family: 'Bodoni Moda', serif;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+}
